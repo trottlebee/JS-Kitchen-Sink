@@ -92,3 +92,16 @@ chkAge("Edna", 20)
 chkAge("Oscar", 21)
 chkAge("Millie", 42)
 chkAge("Barney", 14)
+
+
+function getStrLength(str) {
+    return str.length;
+}
+
+let msgLength = getStrLength("Hello World");
+
+if (msgLength % 2 == 0) {
+    console.log("The world is nice and even!");
+} else {
+    console.log("The world is an odd place!");
+}
